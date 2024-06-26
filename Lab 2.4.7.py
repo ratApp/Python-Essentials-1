@@ -1,9 +1,9 @@
-John = 3
-Mary = 5
-Adam = 6
-total_apples = John + Mary + Adam
+john = 3
+mary = 5
+adam = 6
+total_apples = john + mary + adam
 
-print(John,Mary,Adam,sep=",")
+print(john,mary,adam,sep=",")
 
 print(total_apples)
 print("Total apples = ",total_apples)
