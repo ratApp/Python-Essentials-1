@@ -7,7 +7,7 @@ a = float(input("Enter a value of a:"))
 b = float(input("Enter a value of b:"))
 
 
-# Using the if statement to protect the code from being divided by zero
+# Using the While loop to protect the code from being divided by zero
 
 while b == 0 :
   print("Please enter a value of b other than 0, Try again !!")
@@ -15,7 +15,7 @@ while b == 0 :
   continue
 else:
   # output the result of addition here
-  print("Addition of a and b: ", a + b)
+  print("\nResult:\nAddition of a and b: ", a + b)
 
   # output the result of subtraction here
   print("Subtraction of a and b: ",a - b)
