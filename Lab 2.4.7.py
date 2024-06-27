@@ -7,5 +7,5 @@ print(john,mary,adam,sep=",")
 
 print(total_apples)
 print("Total apples = ",total_apples)
-print(total_apples//John)
-print(total_apples%Adam)
+print(total_apples//john)
+print(total_apples%adam)
