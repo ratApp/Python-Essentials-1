@@ -1,3 +1,4 @@
+
 # 3.1.10   LAB   Comparison operators and conditional execution
 # Scenario
 # Spathiphyllum, more commonly known as a peace lily or white sail plant, is one of the most popular indoor houseplants that filters out harmful toxins from the air. Some of the toxins that it neutralizes include benzene, formaldehyde, and ammonia.
@@ -13,11 +14,11 @@
 # Test your code using the data we've provided for you. And get yourself a Spathiphyllum, too!
 
 
-t = input("Enter a name of plant: ")
+n = input("Enter a name of plant: ")
 
-if t == "spathiphyllum":
-  print("No, I want a big Spathiphyllum!")
-elif t == "pelargonium":
-  print("Spathiphyllum! Not pelargonium!")
-elif t == "Spathiphyllum":
-  print("Yes - Spathiphyllum is the best plant ever!")
+if n == "Spathiphyllum":    # If name is entered correctly
+  print("Yes - Spathiphyllum is the best plant ever!")   # Gives positive feedback
+elif n == "spathiphyllum":   # If name is correct but first letter is not capital
+  print("No, I want a big Spathiphyllum!")  # Gives negative feedback
+else:  # If wrong name is given
+  print("Spathiphyllum! Not ",n,"!") # Corrects the name with the name entered
