@@ -15,3 +15,14 @@
 # It would be good to verify if the entered year falls into the Gregorian era, and output a warning otherwise: Not within the Gregorian calendar period. Tip: use the != and % operators.
 
 # Test your code using the data we've provided.
+
+year = int(input("Enter a year: "))
+
+if year%4 != 0:    # Check if year divided by 4 has a remainder
+    print("Common year")
+elif year%100 != 0:
+    print("Leap year")
+elif year%400 != 0:
+    print("Common year")
+else:
+    print("Leap year")
