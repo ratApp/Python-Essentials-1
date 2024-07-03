@@ -12,7 +12,7 @@ b = float(input("Enter a value of b:"))
 while b == 0 :
   print("Please enter a value of b other than 0, Try again !!")
   b = float(input("Enter a value of b:"))
-  continue
+  #continue
 else:
   # output the result of addition here
   print("\nResult:\nAddition of a and b: ", a + b)
