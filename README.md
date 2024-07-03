@@ -15,8 +15,10 @@ Day 3 Tasks Wed 26-Jun-24
   Lab 2.6.9
 
 Day 4 Tasks Thu 27-Jun-24
-
-Day 5
+  Lab 2.6.11
+  
+Day 5 Tasks Fri 28-Jun-24
+  
 
 Day 6 Tasks Tue 02-Jul-24 
   Lab 3.1.6
