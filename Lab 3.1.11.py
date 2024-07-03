@@ -1,7 +1,7 @@
 # 3.1.11   LAB   Essentials of the if-else statement
 # Income tax calculator
 
-income = float(input("Enter an income: "))
+income = float(input("Enter an income: "))   # Prompts user to enter an income
 
 if income <= 85528 :  # If income is smaller than or equal to 85528
   tax = 18/100 * income - 556.02   # Calculates tax
