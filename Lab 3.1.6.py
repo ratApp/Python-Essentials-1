@@ -8,7 +8,5 @@
 
 n = int(input("Enter a whole number:"))    # Assign an input as an integer
 
-if n >= 100:             # If n is greater than or equal to 100
-  print("True")          # Prints "True"
-else:                    # Otherwise (If less than 100)
-  print("False")         # Prints "False"
+result = n>=100
+print(result)
