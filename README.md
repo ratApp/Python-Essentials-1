@@ -19,14 +19,23 @@ Day 4 Tasks Thu 27-Jun-24
   
 Day 5 Tasks Fri 28-Jun-24
   
+Day 6 Tasks Mon 01-Jul-24 
 
-Day 6 Tasks Tue 02-Jul-24 
+Day 7 Tasks Tue 02-Jul-24 
   Lab 3.1.6
   Lab 3.1.10
   Lab 3.1.11
   Quiz 3.1.14
   Lab 3.2.4
 
-  Day 7 Tasks Wed 03-Jul-24
+  Day 8 Tasks Wed 03-Jul-24
     Lab 3.1.12
+
+  Day 9 Tasks Thu 04-Jul-24
+    Lab 3.2.14
+    Lab 3.2.15
+    Lab 3.3.8
+    Lab 3.4.6
+    Lab 3.4.11
+    Quiz 3.4.13
   
