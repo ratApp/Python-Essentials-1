@@ -34,7 +34,7 @@ Day 7 Tasks Tue 02-Jul-24
   Day 9 Tasks Thu 04-Jul-24
     Lab 3.2.14
     Lab 3.2.15
-    Lab 3.3.8
+    Quiz 3.3.8
     Lab 3.4.6
     Lab 3.4.11
     Quiz 3.4.13
