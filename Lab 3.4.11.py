@@ -26,21 +26,19 @@ print("Step 2:", beatles)
 
 # step 3
 for i in range(2):
-  beatles.append(input("Enter Stu Sutcliffe and then Pete Best one by one: "))
+  beatles.append(input("Enter 'Stu Sutcliffe' and then 'Pete Best' one by one: "))
 print("Step 3:", beatles)
 
 
 # step 4
-del beatles[-2]
-del beatles[-1]
+del beatles[-2]    # Delete second last element
+del beatles[-1]    # Delete last element
 print("Step 4:", beatles)
 
 # step 5
-beatles.insert(0,"Ringo Starr")
-print("Step 5:", beatles)
+beatles.insert(0,"Ringo Starr")   # Insert function to add an element to index 0 or beginning
+print("Step 5:", beatles)    
 
 
-# testing list legth
+# testing list length
 print("The Fab", len(beatles))
-
-
