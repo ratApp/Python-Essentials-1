@@ -13,27 +13,27 @@
 
 # Here is some information to help you:
 
-# 1 American mile = 1609.344 metres;
-# 1 American gallon = 3.785411784 litres.
+
+
 
 def liters_100km_to_miles_gallon(liters):
-    meters = 100000
-    american_mile = meters / 1609.344
-    american_gallon = liters / 3.785411784
+    meters = 100000     # 100 km = 100000 meters
+    american_mile = meters / 1609.344  # 1 American mile = 1609.344 metres;
+    american_gallon = liters / 3.785411784   # Calculate american gallon form liters
 
-    miles_gallon = american_mile / american_gallon
-    return miles_gallon
+    miles_gallon = american_mile / american_gallon  # Calculate miles per gallon
+    return miles_gallon    # Return miles per gallon value
 
 
 
 def miles_gallon_to_liters_100km(miles):
     american_gallon = 1
-    liters = american_gallon * 3.785411784
-    meters = miles * 1609.344
-    km_100 = meters /100000
+    liters = american_gallon * 3.785411784  # 1 American gallon = 3.785411784 litres.
+    meters = miles * 1609.344  # 1 American mile = 1609.344 metres;
+    km_100 = meters /100000    # Calculate 100 km from meters
 
-    liters_100km = liters / km_100
-    return liters_100km
+    liters_100km = liters / km_100  # Calculate liters per 100km 
+    return liters_100km    # Return the liters per 100km value
 
 #Expected output:
 
