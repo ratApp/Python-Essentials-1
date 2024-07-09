@@ -7,6 +7,7 @@
 
 # We've prepared a testing code. Expand it to include more test cases.
 
+# ****** Function: is_year_leap *************************
 def is_year_leap(year):
 #   Leap Year Logic:
 
@@ -17,19 +18,20 @@ def is_year_leap(year):
   else:
       return False  # Returns False is it's not a leap year
 
+# ****** Function: days_in_month ************************
 def days_in_month(year, month):
     months_length = [31,28,31,30,31,30,31,31,30,31,30,31]   # list of months length in common year
     months_length_leap = [31,29,31,30,31,30,31,31,30,31,30,31]  # List of months lenght in leap year
     months = [1,2,3,4,5,6,7,8,9,10,11,12]  # List of months in numeric form
     
     for i in range(12):   # Iterate over numbers from 0 to 11
-        if months[i] == month:  # Check if the number is in the range of 12
+        if month == months[i]:  # Check if the number is in the range of 12
             if is_year_leap(year) == True:   # Check if the given year is a leap year
                 return months_length_leap[i]  # Return months length if the year is a leap year
             else:
                 return months_length[i]   # Return months length if the year is not a leap year
      
-# Given test code    
+# ****** Given test code *******************************  
 test_years = [1900, 2000, 2016, 1987]
 test_months = [2, 2, 1, 11]
 test_results = [28, 29, 31, 30]
