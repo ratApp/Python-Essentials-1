@@ -38,4 +38,20 @@ Day 7 Tasks Tue 02-Jul-24
     Lab 3.4.6
     Lab 3.4.11
     Quiz 3.4.13
+
+  Day 10 Tasks Fri 05-Jul-24
+    Lab 3.6.6
+
+  Day 11 Tasks Mon 08-Jul-24
+    Lab 4.3.4
+    Lab 4.3.5
+    Lab 4.3.6
+    Lab 4.3.7
+    Lab 4.3.8
+    Quiz
+
+  Day 12 Tasks Tue 09-Jul-24
+    Practice Labs 4.5.1
+    Quiz 4.6.7
+  
   
