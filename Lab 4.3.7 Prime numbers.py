@@ -21,9 +21,21 @@
 # Run your code and check whether your output is the same as ours.
 
 def is_prime(num):
-    #
-    # Write your code here.
-    #
+    #divisors = [2,3,5,7]  # List of divisors
+    for i in range(2, int(1 + num ** 0.5)):   # Iterate through the above list
+        if num%i == 0:   # Check if the number has ramainder 0
+            return False  # If remainder is 0, it's not a prime number
+        
+    return True  # If ramainder is not 0, it is a prime number
+    
+print(is_prime(11))
+print(is_prime(12))
+print(is_prime(17))
+print(is_prime(7))
+print(is_prime(2))
+print(is_prime(21))
+print(is_prime(1001))
+print(is_prime(99))
 
 for i in range(1, 20):
     if is_prime(i + 1):
