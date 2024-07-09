@@ -14,11 +14,11 @@ def is_year_leap(year):
 # 1. If a year is divisible by 4, it's a potential leap year.
 # 2. However, if the year is divisible by 100, it's not a leap year unless the year is divisible by 400.
   if (year%4 == 0 and year%100 != 0) or (year%400 == 0):
-      return True  # Returns True is it's a leap year
+      return True  # Returns True if it's a leap year
   else:
-      return False  # Returns False is it's not a leap year
+      return False  # Returns False if it's not a leap year
     
-
+# Test data
 test_data = [1900, 2000, 2016, 1987]
 test_results = [False, True, True, False]
 for i in range(len(test_data)):
