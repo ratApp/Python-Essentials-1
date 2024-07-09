@@ -53,5 +53,7 @@ Day 7 Tasks Tue 02-Jul-24
   Day 12 Tasks Tue 09-Jul-24
     Practice Labs 4.5.1
     Quiz 4.6.7
+    Chapter 4 test
+    Practice labs
   
   
